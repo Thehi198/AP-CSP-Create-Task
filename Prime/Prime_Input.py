@@ -2,8 +2,18 @@
 x = int(input("which number?"))
 print(x)
 
-#divisable by 2
-while x > 0:
-    x = x - 2
+a = x
+b = x
+c = x
+d = x
 
-print (x)
+#divisable by 2
+while a > 0:
+    a = a - 2
+
+print (a)
+
+if a == -1:
+    print("not 2")
+else:
+    print("div 2")
