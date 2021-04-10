@@ -4,18 +4,12 @@ x = abs(x)
 print(x)
 
 a = x
-b = x
-c = x
-d = x
 
-#divisable by 2?
+# div 2?
 while a > 0:
     a = a - 2
-
 print (a)
-
-if a == -1:
-    print("not 2")
-else:
+if a == 0:
     print("div 2")
-
+else:
+    print("not 2")
