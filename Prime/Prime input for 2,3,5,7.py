@@ -3,12 +3,10 @@ x = int(input("which number?"))
 x = abs(x)
 print(x)
 
-
 array = [1,2,5,7]
 if x in array:
     print("prime")
     quit
-
 
 #initialize
 a = x
