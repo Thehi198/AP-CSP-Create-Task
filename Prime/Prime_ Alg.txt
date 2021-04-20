@@ -1,0 +1,10 @@
+#psudocode
+get input from user as int num 
+process int 
+div int by 2 as val
+div num by every between 2 and val
+if any output is even, add one to result
+if result is not zero, num is composite
+else num is prime
+
+
