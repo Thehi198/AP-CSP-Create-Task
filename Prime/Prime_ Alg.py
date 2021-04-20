@@ -15,3 +15,10 @@ print(num_range)
 num_list = list(num_range)
 print(num_list)
 
+#elements in list
+num_elem = len(num_list)
+print("elem in list:",num_elem)
+
+#div by values num_list
+
+
