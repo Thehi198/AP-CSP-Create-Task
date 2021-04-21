@@ -1,4 +1,4 @@
-#psudocode
+#pseudocode
 get input from user as int num 
 process int 
 div int by 2 as val
