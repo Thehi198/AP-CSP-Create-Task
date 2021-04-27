@@ -7,4 +7,10 @@ if any output is even, add one to result
 if result is not zero, num is composite
 else num is prime
 
+Variable Define
+x = input
+n = div value 
+num_range = range of numbers between 2 and n
+num_list = num_range expressed as a list
+num_elem = elements in list
 
