@@ -4,7 +4,6 @@ input = int(input)
 input = abs(input)
 print(input)
 
-
 def prime_function(input):
     print("inside function")
     #div value
@@ -40,9 +39,9 @@ def prime_function(input):
 
     #if argument detects if list has 1 or not
     if output_occur == 0:
-        print("% is prime" , input)
+        print(input, "is prime")
     else:
-        print("% is composite" , input)
+        print(input, "is composite")
     print("exit function")
 
 prime_function(input)
