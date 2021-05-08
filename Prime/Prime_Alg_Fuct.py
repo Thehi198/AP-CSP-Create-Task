@@ -1,11 +1,13 @@
 #input and processing
 input = input("which number?")
-input = int(input)
-input = abs(input)
-print(input)
+
 
 def prime_function(input):
     print("inside function")
+    #input Processing
+    input = int(input)
+    input = abs(input)
+    print(input)
     #div value
     n = input/2
     n = int(n)
