@@ -4,6 +4,12 @@ def prime_function(input):
     input = int(input)
     input = abs(input)
 
+    #int div 2
+    if input % 2 == 0:
+        print(input, "is composite")
+        return; 
+    else:
+
     #div value
     n = input/2
     n = int(n)
