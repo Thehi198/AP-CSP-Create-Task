@@ -11,7 +11,7 @@ def prime_function(input):
     else:
 
     #div value
-    n = input/2
+        n = input/2
     n = int(n)
 
     #find values between 2,n
@@ -37,9 +37,12 @@ def prime_function(input):
 
     #if argument detects if list has 1 or not
     if output_occur == 0:
-        print(input, "is prime")
+        #print(input, "is prime")
+        return(True)
     else:
-        print(input, "is composite")
+        #print(input, "is composite")
+        return(False)
+        
 def input_function():
     print("Enter numbers to calculate. Please seperate values by hiitting enter. Press enter twice or type stop once you are done")
 input_function()
@@ -49,6 +52,15 @@ try:
     while True:
         input_list.append(int(input()))
 except:
-    print(input_list)
+    print("Your list is:",input_list)
+    print("")
+
 output_array = map(prime_function, input_list)
 output_list = list(output_array)
+#print(output_list)
+
+for i in range (len(input_list)):
+    if (output_list [i]):
+        print(input_list[i],("is a prime"))
+    else:
+        print(input_list[i], ("is a composite"))
