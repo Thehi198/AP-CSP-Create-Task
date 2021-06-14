@@ -11,4 +11,5 @@ Table of Contents
             Database Display
     prime
         Prime Alg
+            Prime calculation with Alg
     Notepad
