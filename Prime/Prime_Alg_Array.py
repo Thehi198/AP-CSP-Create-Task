@@ -1,15 +1,14 @@
 def prime_function(input):
-
     #input Processing
     input = int(input)
     input = abs(input)
 
-    #int div 2
+    #int div 2; add or case
     if input % 2 == 0:
-        print(input, "is composite")
-        return; 
+        #print(input, "is composite")
+        return(False); 
     else:
-
+    
     #div value
         n = input/2
     n = int(n)
@@ -20,7 +19,7 @@ def prime_function(input):
 
     #define Div_Num function
     def div_num(y):
-        return input/y
+        return input/y    
 
     #div by values num_list
     map_output = map(div_num, num_list)
@@ -45,7 +44,9 @@ def prime_function(input):
         
 def input_function():
     print("Enter numbers to calculate. Please seperate values by hiitting enter. Press enter twice or type stop once you are done")
+
 input_function()
+
 try:
     input_list = []
       
